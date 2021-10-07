@@ -6,3 +6,7 @@ export interface Todo {
 export interface Meta {
   totalCount: number;
 }
+
+export type UnknownObject = {
+  [key: string]: unknown
+}[]
